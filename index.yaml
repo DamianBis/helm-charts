@@ -3,6 +3,16 @@ entries:
   terraform:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-05-23T22:23:41.661700147Z"
+    description: A Helm chart for Kubernetes
+    digest: 3bf543b219c16d17ca4eab4912bec305e0f607f4f3f9de4aa6feaaf197e2ced1
+    name: terraform
+    type: application
+    urls:
+    - https://github.com/DamianBis/helm-charts/releases/download/terraform-0.2.0/terraform-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-05-23T10:59:33.37673056Z"
     description: A Helm chart for Kubernetes
     digest: 1567b7d27801f95966d06f2931bee401d1a7dd95c99fb76a3d8e5606d3d2e76c
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/DamianBis/helm-charts/releases/download/terraform-0.1.0/terraform-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-23T10:59:33.37673466Z"
+generated: "2023-05-23T22:23:41.661707147Z"
