@@ -17,6 +17,7 @@ spec:
   path: {{ .Values.git.path}}
   approvePlan: auto
   interval: 1m
+  
   varsFrom:
   - kind: Secret
     name: aws
@@ -26,6 +27,7 @@ spec:
     name: aws
     varsKeys: 
     - secret_key
+  values: {{ .Values.tfValues }}
   sourceRef:
     kind: GitRepository
     name: {{ .Values.environmentName }}-tf
